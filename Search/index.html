@@ -2,11 +2,35 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <style>
+            body {
+                color: rgb(188, 197, 222);
+                text-align: center;
+                background-color: rgb(57, 59, 66);
+
+                display: flex; /* Enables flexbox */
+                justify-content: center; /* Centers content horizontally */
+                align-items: center; /* Centers content vertically */
+                height: 100vh; /* Makes the body take up the full viewport height */
+                
+            }
+            .container {
+                transform: translateY(-100%);
+            }
+            h1 {
+                font-size: 92px; /* Adjusted to match Google’s logo size */
+                font-family: 'Times New Roman', Times, serif; /* Similar to Google's font */
+                margin: 20px 0;
+            }
+        </style>
     </head>
     <body>
-        <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+        <div class="container">
+            <h1>Google</h1>
+            <form action="https://www.google.com/search">
+                <input type="text" name="q">
+                <input type="submit" value="Google Search">
+            </form>
+        </div>
     </body>
 </html>

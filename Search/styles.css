@@ -94,3 +94,24 @@ button:hover {
     background-color: #357AE8;
     /* Darker blue on hover */
 }
+
+.nav-links {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.nav-links a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #4285F4;
+    font-size: 14px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.advanced-container {
+    transform: translateY(-15%); /* Move the entire container down */
+}

@@ -26,6 +26,20 @@ form {
     /* Centers items horizontally */
 }
 
+form input[type="text"] {
+    margin-bottom: 10px; /* Add spacing below the input field */
+}
+
+form button {
+    margin: 0 5px; /* Add spacing between the buttons */
+}
+
+
+form .buttons {
+    display: flex; /* Place buttons side by side */
+    justify-content: center;
+}
+
 h1 {
     font-size: 92px;
     /* Adjusted to match Google’s logo size */

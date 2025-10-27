@@ -1,0 +1,13 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    {{ title }} - Not Found
+{% endblock %}
+
+{% block body %}
+    <h1>Entry Not Found</h1>
+    <p>Sorry, the encyclopedia entry "<strong>{{ title }}</strong>" does not exist.</p>
+    <div>
+        <a href="{% url 'index' %}" class="btn btn-primary">Back to Home</a>
+    </div>
+{% endblock %}

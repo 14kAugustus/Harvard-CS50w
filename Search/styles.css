@@ -1,0 +1,117 @@
+body {
+    color: rgb(188, 197, 222);
+    text-align: center;
+    background-color: rgb(57, 59, 66);
+
+    display: flex;
+    /* Enables flexbox */
+    justify-content: center;
+    /* Centers content horizontally */
+    align-items: center;
+    /* Centers content vertically */
+    height: 100vh;
+    /* Makes the body take up the full viewport height */
+}
+
+.container {
+    transform: translateY(-60%);
+}
+
+form {
+    display: flex;
+    /* Enables flexbox for the form */
+    flex-direction: column;
+    /* Stacks items vertically */
+    align-items: center;
+    /* Centers items horizontally */
+}
+
+form input[type="text"] {
+    margin-bottom: 10px; /* Add spacing below the input field */
+}
+
+form button {
+    margin: 0 5px; /* Add spacing between the buttons */
+}
+
+
+form .buttons {
+    display: flex; /* Place buttons side by side */
+    justify-content: center;
+}
+
+h1 {
+    font-size: 92px;
+    /* Adjusted to match Google’s logo size */
+    font-family: 'Times New Roman', Times, serif;
+    /* Similar to Google's font */
+    margin: 20px 0;
+}
+
+input[type="text"] {
+    width: 500px;
+    /* Makes the input wider */
+    height: 40px;
+    /* Adjusts the height */
+    border: 1px solid #ccc;
+    /* Adds a light border */
+    border-radius: 20px;
+    /* Makes the input pill-shaped */
+    padding: 0 20px;
+    /* Adds padding inside the input */
+    font-size: 16px;
+    /* Adjusts font size */
+    outline: none;
+    /* Removes the default outline */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    /* Adds a subtle shadow */
+}
+
+button {
+    margin-top: 10px;
+    /* Adds spacing between the input and button */
+    width: 120px;
+    /* Width of the button */
+    height: 40px;
+    /* Matches the height of the input */
+    border: none;
+    /* Removes border */
+    border-radius: 20px;
+    /* Makes the button pill-shaped */
+    background-color: #4285F4;
+    /* Google blue color */
+    color: white;
+    /* Button text color */
+    font-size: 16px;
+    /* Adjusts font size */
+    cursor: pointer;
+    /* Changes cursor to pointer on hover */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    /* Adds a subtle shadow */
+}
+
+button:hover {
+    background-color: #357AE8;
+    /* Darker blue on hover */
+}
+
+.nav-links {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.nav-links a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #4285F4;
+    font-size: 14px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.advanced-container {
+    transform: translateY(-15%); /* Move the entire container down */
+}
